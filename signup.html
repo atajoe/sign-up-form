@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-    <h1>Sample Sign Up Form :)</h1>
+    <div class="content">
+        <div class="side-hero">
+            <img id="img-trees" src="trees.jpg" alt="trees.jpg">
+            <div class="odintext">
+                <img id ="odin-logo" src="odin-lined.png" alt="odin-lined.png">
+                <h1 id="odin">Odin</h1>
+            </div>
+        </div>
+        <div class="signup-text">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+            <form>
+                <div>
+                    <div>
+                        <label for="firstname">
+                            <span>FIRST NAME</span>
+                        </label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <div>
+                        <label for="lastname">
+                            <span>LAST NAME</span>
+                            <input type="password" name="password" id="password">
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="email">
+                            <span>EMAIL </span>
+                            <input class= "email" type="email" name="email" id="email">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="phonenumber"></label>
+                        <span>PHONE NUMBER</span>
+                        <input type="number" name="phonenumber" id="phonenumber">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="password"></label>
+                        <span>PASSWORD</span>
+                        <input type="password" name="password" id="password">
+    
+                    </div>
+                    <div>
+                        <label for="confirmpassword"></label>
+                        <span>CONFIRM PASSWORD</span>
+                        <input type="password" name="confirmpassword" id="confirmpassword">
+                    </div> 
+                </div>
+            </form>
+            <button class="submit" type="submit">Submit</button>
+        </div>
+        <div class="livechat">Chat with us?</div>
+    </div>
 </body>
 </html>
