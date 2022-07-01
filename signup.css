@@ -68,10 +68,6 @@ h1#odin{
 
 #odin-logo{
     width: 4rem;
-    /* height: 10%;
-    top: 50%;
-    left: 25%; */
-
 }
 
 .signup-text{
@@ -113,13 +109,23 @@ form > div{
 }
 
 form input:invalid:focus {
-    border: 1px solid rgb(255, 69, 100);
+    border: 1.5px solid rgb(255, 69, 100);
   }
   
 form input:focus:valid {
-    border: rgb(0, 183, 255) 1.5px solid;
+    border: blue 1.5px solid;
   }
 
+/* input:invalid {
+    border: 1px solid red;
+} */
+
+p.error{
+    color:red;
+    font-weight: bold;
+    margin-top:5px;
+    margin-left:5px;
+}
 
 input{
     box-sizing: border-box;
