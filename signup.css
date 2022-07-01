@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
 }
 
 body{
@@ -99,7 +98,6 @@ form{
 
 
 
-
 form > div{
     display: flex;
     width:45%;
@@ -116,9 +114,6 @@ form input:focus:valid {
     border: blue 1.5px solid;
   }
 
-/* input:invalid {
-    border: 1px solid red;
-} */
 
 p.error{
     color:red;
@@ -139,7 +134,7 @@ input{
 
 }
 
-textarea:focus, input:focus{
+input:focus{
     outline: none;
 }
 
@@ -167,12 +162,6 @@ button.active{
 }
 
 
-span{
-    font-size:0.5rem;
-    letter-spacing:0.1rem;
-    margin-bottom: 1px;
-}
-
 .livechat{
     position:fixed;
     bottom:5%;
@@ -189,9 +178,6 @@ img[src="trees.jpg"]{
     min-width:45wv;
 }
 
-h3{
-    display: flex;
-}
 
 .accountalready{
     margin-left:25px;
